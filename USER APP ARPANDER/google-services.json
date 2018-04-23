@@ -1,0 +1,107 @@
+{
+  "project_info": {
+    "project_number": "191352158456",
+    "firebase_url": "https://studentfaculty-18bd8.firebaseio.com",
+    "project_id": "studentfaculty-18bd8",
+    "storage_bucket": "studentfaculty-18bd8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:191352158456:android:7869337fc14f060c",
+        "android_client_info": {
+          "package_name": "com.example.kirannaidu.studentbenfits"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "191352158456-i6fgjuv8257c3e77j1t0u3m054qc1s4i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.kirannaidu.studentbenfits",
+            "certificate_hash": "83b2f48c6c06d232653e88cabdbaa82680015c06"
+          }
+        },
+        {
+          "client_id": "191352158456-v47g3kjrgtlv135d69a66llfngope127.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.kirannaidu.studentbenfits",
+            "certificate_hash": "1a460eac0e3f2cfe88af9127c783d45b3df58554"
+          }
+        },
+        {
+          "client_id": "191352158456-310hk8e4feoek2vlm2908k3jobum7ls4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDR3frqWsZ-9gZowWDcywQEs_QfNg5G-LE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "191352158456-310hk8e4feoek2vlm2908k3jobum7ls4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:191352158456:android:41a43003e243c96f",
+        "android_client_info": {
+          "package_name": "com.example.user.arpander"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "191352158456-3bsakc0l3r7ji43jgc37na0khe8t0apj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.user.arpander",
+            "certificate_hash": "537360a4b3cbc6e4492f5f5226569a8be023a9f3"
+          }
+        },
+        {
+          "client_id": "191352158456-310hk8e4feoek2vlm2908k3jobum7ls4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDR3frqWsZ-9gZowWDcywQEs_QfNg5G-LE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "191352158456-310hk8e4feoek2vlm2908k3jobum7ls4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
