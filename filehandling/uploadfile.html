@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <html xmlns="http://www.w3.org/1999/xhtml">
+
+  <meta charset="UTF-8">
+  <title>uploads</title>
+
+
+  <link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Lato|Quicksand'>
+<link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css'>
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+      <body>
+      <form action="upload.php" method="post" enctype="multipart/form-data">
+      <input type="file" name="file" />
+
+<br>
+  <div class="sel sel--black-panther">
+  <select name="batch" id="select-profession">
+    <option value="" disabled>Batch</option>
+    <option value="2014">2014-2018</option>
+    <option value="2015">2015-2019</option>
+    <option value="2016">2016-2020</option>
+    <option value="2017">2017-2021</option>
+
+	  </select>
+	</div><br></br><br></br><br>
+
+<hr class="rule">
+
+<div class="sel sel--superman">
+  <select name="section" id="select-superpower">
+    <option value="" disabled>Sec</option>
+    <option value="a">A</option>
+    <option value="b">B</option>
+    <option value="c">C</option>
+  </select>
+</div>
+
+ <div class="sel sel--black-panther">
+  <select name="year" id="select-profession">
+    <option value="" disabled>Year</option>
+    <option value="four">4/4</option>
+    <option value="three">3/4</option>
+    <option value="two">2/4</option>
+    <option value="one">1/4</option>
+
+  </select>
+</div>
+
+ <div class="sel sel--black-panther">
+  <select name="sem" id="select-profession">
+    <option value="" disabled>Sem</option>
+    <option value="first">1</option>
+    <option value="second">2</option>
+
+  </select>
+</div>
+
+
+  <div>
+
+
+    <button type="submit" name="btn-upload">upload</button>
+
+    </div>
+  </a>
+</div>
+
+</form>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+
+    <script src="js/index.js"></script>
+
+</body>
+</html>

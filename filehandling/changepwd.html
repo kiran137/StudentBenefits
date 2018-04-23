@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<head>
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	</head>
+
+	<style>
+			body{
+	margin:0;
+	padding:0;
+	background: url("images/change.jpg");
+
+	background-size: auto;
+	background-repeat: no-repeat;
+	width:80%;
+	max-height: 70%;
+
+	font-family:sans-serif;
+}
+
+.button{
+	-webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+.submit: hover{
+	color:"teal";
+
+
+}
+
+.user{
+
+	width: :100px;
+	height: 100px;
+	position: absolute;
+	top:-50px;
+	border-radius: 50%;
+	left: calc(50% - 50px);
+
+}.changepwd{
+	width: 400px;
+	height: 600px;
+	/*background:rgba(0,0,0,0.5);*/
+
+	top:50%;
+	left:50%;
+	position: absolute;
+	transform:translate(-50%,-50%);
+	box-sizing: border-box;
+	font-size:24px;
+
+}
+
+.password{
+	font-size:22px;
+	font-color:darkblue;
+
+}
+
+
+
+
+	</style>
+
+<body>
+
+
+
+<div class="changepwd">
+
+
+<form action="changepwd.php" method="post">
+	<p style="font-family: verdana; font-style:bold; font-size:24px"><i class="fa fa-hand-o-down" style="font-size:35px;color:red"></i>change password</p><br>
+
+<p >password </p>
+			<input type="password" placeholder="plz enter pwd"  name="password">
+
+			</br>
+			<p > confirm password </p>
+			<input type="password" placeholder="confirm password" name="cpwd" ></br><br>
+
+
+			<input type="submit"   name="button" style="font-family: tahoma; text-align: center; font-size:15px; background-color: white; cursor:pointer; border-radius: 40px; background-color: white; box-shadow: 0 2.5px #666;transform: translateY(4px); width:110px;"    >
+
+
+
+</form>
+</div>
+
+</body>
+</html>

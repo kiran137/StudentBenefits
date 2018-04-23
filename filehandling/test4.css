@@ -1,0 +1,29 @@
+h1{
+			
+			
+	}
+
+p{
+
+	color :black ; font-family:tahoma; font-size: 25px;  text-shadow:5px 5px 10px white;
+	float-left:30px;
+}
+
+.signin{
+	width: 350px;
+	height: 600px;
+	/*background:rgba(0,0,0,0.5);*/
+	
+	top:50%;
+	left:15%;
+	position: absolute;
+	transform:translate(0%,-65%);
+	/*box-sizing: border-box;*/
+	
+
+}
+
+
+
+
+	
