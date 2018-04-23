@@ -1,0 +1,66 @@
+body{
+	margin:0;
+	padding:0;
+	background: url("images/abc7.jpg");
+
+	background-size: auto;
+	background-repeat: no-repeat;
+	width:100%;
+	max-height: 100%;
+
+	font-family:sans-serif;
+}
+
+h1{
+	position: center;
+	font-color:" darkblue";
+	font-family:"Lucida Console", Monaco, monospace;
+	font-size: 30px;
+	font-style:bold;
+	align-content: center;
+}
+
+p{
+	position: center;
+	font-color:darkblue;
+	font-family:"Lucida Console", Monaco, monospace; 
+	font-size:18px;
+	align-content: center;
+	
+}
+
+.box
+{
+	top:20%;
+	left:50%;
+	position: absolute;
+	transform:translate(-220%,-50%);
+	box-sizing: border-box;
+
+
+}
+
+button{
+
+	 display: inline-block;
+  padding: 15px 25px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: darkblue;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+  button:hover {background-color: teal}
+
+button:active {
+  background-color: purple;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+
+
+}

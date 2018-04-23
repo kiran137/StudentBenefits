@@ -1,0 +1,45 @@
+body{
+	margin:0;
+	padding:0;
+	background: url("images/testimg.jpg");
+
+	background-size: auto;
+	background-repeat: no-repeat;
+	width:100%;
+	max-height: 100%;
+
+	font-family:sans-serif;
+}
+
+.button{
+	-webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+.submit: hover{
+  
+
+}
+
+.user{
+
+	width: :100px;
+	height: 100px;
+	position: absolute;
+	top:-50px;
+	border-radius: 50%;
+	left: calc(50% - 50px);
+
+}
+
+.login{
+	width: 400px;
+	height: 600px;
+	/*background:rgba(0,0,0,0.5);*/
+	
+	top:50%;
+	left:50%;
+	position: absolute;
+	transform:translate(-50%,-50%);
+	box-sizing: border-box;
+
+}
